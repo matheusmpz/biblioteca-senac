@@ -1,0 +1,147 @@
+:root {
+    --primaria: #F67F31;
+    --secundaria: #483d8d;
+    --texto: #2f2f2f;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--texto);
+}
+#cabecalho {
+    height: 80px;
+    padding: 10px;
+}
+#logotipo img {
+    max-width: 200px;
+}
+#menu ul {
+    display: flex;
+    justify-content: space-around;    
+    font-size: 18px;
+    line-height: 60px;
+}
+#menu ul li a {
+    color: var(--texto);
+    font-weight: 600;
+    text-decoration: none;
+}
+#botoesCabecalho {
+    text-align: right;
+    line-height: 60px;
+}
+#banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../imagens/pexels-pixabay-159711.jpg");    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#banner.banner-interno {
+    height: 200px;
+}
+#banner h2 {
+    font-weight: bold;
+}
+#formPesquisa {
+    background: white;
+    max-width: 600px;
+    font-size: 18px;
+    margin: 0 auto;
+    color: var(--texto);
+    padding: 5px;
+    border-radius: 22px;
+    height: 44px;
+}
+#formPesquisa form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#formPesquisa form input {
+    width: 450px;
+    border: none;
+}
+
+#formPesquisa form button {
+    border: none;
+    background-color: var(--secundaria);
+    color: white;
+    border-radius: 16px;
+    padding: 4px 12px;
+}
+#formPesquisa form i {
+    margin: 0 8px;
+}
+.titulo {
+    border-left: 8px solid var(--secundaria);
+    margin-top: 46px;
+    height: 72px;
+    margin-bottom: 46px;
+}
+.titulo h2 {
+    font-weight: bold;
+}
+.boxCategoria .borda img h3 {
+    text-align: center;
+}
+.boxCategoria h3 {
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.boxCategoria .borda {
+    width: 100px;
+    height: 100px;
+    padding: 16px;
+    border: 2px solid var(--primaria);
+    border-radius: 50%;
+    box-shadow: -4px 4px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.boxLivros {
+    text-align: center;
+}
+.boxLivros h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+.boxLivros img {
+    height: 246px;
+}
+.boxFooter {
+    display: flex;
+    justify-content: space-between;
+}
+.boxFooter h2{
+    text-align: left;
+}
+.boxFooter li {
+    text-align: left;
+}
+.boxFooter ul li a {
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    color: var(--texto);
+    margin-left: -26px;
+}
+.boxFooter .contatos {
+    margin-left: -26px;
+}
+#copyright {
+    text-align: center;
+    background-color: #e2e2e2;
+    padding: 20px 0;
+}
